@@ -46,6 +46,10 @@ export const PreviewProvider = ({
   }, [layout.apiID]);
 
   const didChangeData = useMemo(() => {
+    if (isCreatingEntry) {
+      return true;
+    }
+
     return (
       !isEqual(initialData, modifiedData) ||
       (isCreatingEntry && !isEmpty(modifiedData))
