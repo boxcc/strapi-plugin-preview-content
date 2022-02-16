@@ -1,12 +1,30 @@
 {
+  "containers.Edit.clone": "拷贝",
+  "containers.Edit.preview": "预览",
+  "containers.Edit.publish": "发布",
+
+  "success.record.clone": "已拷贝",
+  "error.record.clone": "拷贝时出现错误",
+  "success.record.publish": "已发布",
+  "error.record.publish": "发布时出现错误",
+
+  "popUpWarning.warning.clone": "Cloning this entry will create a new copy with the same fields.",
+  "popUpWarning.warning.clone-question": "Are you sure you want to clone this entry?",
+  "popUpWarning.warning.publish": "Publishing this entry will replace previously cloned entry (changes will automatically apply to original entry)",
+  "popUpWarning.warning.publish-question": "Are you sure you want to publish this entry?",
+
   "plugin.name": "预览内容",
+  "settings.form.baseUrl.description": "The root url of your frontend. This can be used by custom and default preview urls.",
+  "settings.form.baseUrl.label": "Base url",
   " settings.form.previewUrl.description": "创建要在前端使用的自定义预览网址",
   " settings.form.previewUrl.label": "预览网址",
   " settings.form.previewUrl.available": "可用参数:",
+  "settings.form.previewUrl.available.baseUrl": "The root url as defined above",
   " settings.form.previewUrl.available.contentType": "要查询的内容类型（在url中要求）",
   " settings.form.previewUrl.available.id": "要查询的ID（在URL中必需）",
   " settings.form.previewUrl.example": "示例:",
   " settings.header.label": "预览内容-设置",
   " settings.section.general.label": "一般",
-  " settings.sub-header.label": "配置预览设置功能的设置"
+  " settings.sub-header.label": "配置预览设置功能的设置",
+  "error.previewUrl.notFound": "An error occurred during preview url fetch."
 }
